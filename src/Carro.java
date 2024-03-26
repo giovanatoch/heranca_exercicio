@@ -9,4 +9,7 @@ class Carro extends Veiculo {
     public int getNumeroPortas() {
         return numeroPortas;
     }
+    public void getNumeroPortas(int numeroPortas) {
+        this.numeroPortas = numeroPortas;
+    }
 }
